@@ -1,8 +1,9 @@
 # Detecting Arrythmia with Wavelet Transformation and Convolutional Neural Networks
 
-With the rapid development of artificial intelligence and new and exciting machine learning methods,
-we can train computers to process large amount of data really quickly. Today we can automate
-important procedures, such as, fault diagnosis in equipment, or in fact humans. We can use these tools
-to monitor our health and in this project I studied Electrodiagrams (ECG), to monitor the proper
-functioning of the cardiovascular system. With these methods professionals can save some time from
-scattering endless ECG results and focus on things only humans can do.
+In this project I studied Electrodiagrams (ECG), which can be used to monitor the proper functioning of the cardiovascular system.
+I used machine learning and wavelet transformation to accurately classify real world datasets of normal and irregular heartbeats.
+
+The main results are:
+- Augmenting ECG data to help with the data imbalance arising from the relative scarcitiy of irregular heartbeats to normal heartbeats
+- Training a Convolutional Neural Network (CNN) to classify the 5 types of heartbets with at least .95 area under the ROC curve for every class
+- Applying Continuos Wavelet Transformation to the ECG signal to improve the predictive ability of the CNN architecture to at least .98 area under the ROC curve for every class
