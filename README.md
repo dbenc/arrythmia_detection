@@ -6,4 +6,4 @@ I used machine learning and wavelet transformation to accurately classify real w
 The main results are:
 - Augmenting ECG data to help with the data imbalance arising from the relative scarcitiy of irregular heartbeats to normal heartbeats
 - Training a Convolutional Neural Network (CNN) to classify the 5 types of heartbets with at least .95 area under the ROC curve for every class
-- Applying Continuos Wavelet Transformation to the ECG signal to improve the predictive ability of the CNN architecture to at least .98 area under the ROC curve for every class
+- Applying Continuous Wavelet Transformation to the ECG signal to improve the predictive ability of the CNN architecture to at least .98 area under the ROC curve for every class
